@@ -2,15 +2,15 @@
 
 import 'package:flutter/material.dart';
 
-class MyDesktopBody extends StatelessWidget {
-  const MyDesktopBody({Key? key}) : super(key: key);
+class MyTabletBody extends StatelessWidget {
+  const MyTabletBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
       appBar: AppBar(
-        title: Text('D E S K T O P'),
+        title: Text('T A B L E T'),
       ),
       body: ListView(
         children: [
